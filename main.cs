@@ -10,7 +10,7 @@ class Employee {
   }
 
   public virtual void Info() {
-    Console.WriteLine($"имя: {name}\n" + 
+    Console.WriteLine($"Имя: {name}\n" + 
                       $"возраст: {age}\n" + 
                       $"зп: ${salary}\n");
   }
